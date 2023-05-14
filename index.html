@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem Pókemon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <!--ID = tributo de identificação (identificador da tag) (apenas um ID com um valor dentro do HTML) um por HTML-->
+            <a href="#">
+                <img src="./src/imagens/sun.png" alt="sol" class="imagem-botao">
+            </a>
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <!--As tags header e main são semânticas, tem mais relevancia. Diferente do div que não é.-->
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                    <!--<span> container genérico usado para agrupar elementos.-->
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="bulbassauro-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Há uma semente de plantaem suas costasdesde o dia que este pókemon nasceu. A
+                    semente cresce lentamente.</p>
+
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivisaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="ivysaur-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé de
+                    suas patas traseiras.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="venusaur-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em
+                    movimento para buscar a luz solar.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="charmander-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo.</li>
+                </ul>
+
+                <p class="descricao">Tem preferencia por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta
+                    da sua cauda.</p>
+
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="charmeleon-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo.</li>
+                </ul>
+
+                <p class="descricao">Charmeleon é um Pokérmon reptiliano. Ele tem escamas vermelhas na sua parte
+                    inferior. Existe um chifre na parte de trás da cabeça. Ele tem olhos verdes e um focinho comprido.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="charizard-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo.</li>
+                </ul>
+
+                <p class="descricao">Charizard é um Pokémon dracônico e bípede . É principalmente laranja com uma parte
+                    inferior creme do peito até a ponta da cauda. Tem um pescoço longo, pequenos olhos azuis, narinas
+                    ligeiramente levantadas e duas estruturas semelhantes a chifres saindo da parte de trás de sua
+                    cabeça
+                    retangular.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="squirtle-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água.</li>
+                </ul>
+
+                <p class="descricao">Squirtle é baseado em uma tartaruga marinha. Tem uma pele azul claro e usa um casco
+                    e
+                    junto também tem uma calda longa azul.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="wartortle-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água.</li>
+                </ul>
+
+                <p class="descricao">Wartortle Move Suas Orelhas Para Nadar Mais Rápido E, É Um Pokémon Muito Popular
+                    Como
+                    Um Animal De Estimação. E Na Sua Última Evolução Blastoise O Mais Forte De Todos É Super Popular,
+                    Tem Um
+                    Jatos Em Sua Concha Para Ataques Em Alta Velocidade, Seus Jatos São Sua Maior Arma.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="blastoise-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água.</li>
+                </ul>
+
+                <p class="descricao">Blastoise possui uma variedade de habilidades e pode atrapalhar bastante a vida dos
+                    seus adversários. Ele também é focado em ataques de longa distância e, assim como os outros Pokémon
+                    normais, você precisa evoluí-lo</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/caterpie.gif" alt="caterpie-pokemon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto.</li>
+                </ul>
+
+                <p class="descricao"> Caterpie é uma larva verde e amarela, com anéis amarelos pelos segmentos do corpo.
+                    Possui olhos negros e amarelados e uma antena vermelha. Sua cauda também é amarelada.</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Beedrill</span>
+                    <span>#0015</span>
+                </div>
+
+                <img src="./src/imagens/beednil.gif" alt="beedrill-pokemon" class="gif
+                ">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno.</li>
+                    <li class="tipo inseto">Inseto.</li>
+                </ul>
+
+                <p class="descricao">Tem três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados ​​para espetar seu inimigo repetidamente.</p>
+            </li>  
+
+    </main>
+        <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
